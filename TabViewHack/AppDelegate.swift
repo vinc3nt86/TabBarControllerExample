@@ -15,7 +15,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // create UIWindow with the same size as main screen
+//        window = UIWindow(frame: UIScreen.main.bounds)
+        
+//        let tabBarController = TabBarController()
+        
+        // Make the Tab Bar Controller the root view controller
+//        window?.rootViewController = tabBarController
+//        window?.makeKeyAndVisible()
+        
         return true
     }
 
